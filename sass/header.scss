@@ -1,0 +1,39 @@
+// mixins 
+@mixin text-styles {
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+--root{
+    
+}
+
+
+
+// ///////////////////////////
+
+.header{
+
+
+.nav{
+     
+    height: 5rem;
+    padding: 1.8rem;
+    display: grid;
+    grid-template-columns: 33rem 61rem;
+
+
+    &-list{
+        display: flex;
+        justify-content: space-evenly;
+         
+    }
+
+    &-links{
+        text-decoration: none;
+        @include text-styles; 
+    } 
+}
+
+}

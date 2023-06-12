@@ -1,0 +1,18 @@
+.header .nav {
+  height: 5rem;
+  padding: 1.8rem;
+  display: grid;
+  grid-template-columns: 33rem 61rem; }
+  .header .nav-list {
+    display: flex;
+    justify-content: space-evenly; }
+  .header .nav-links {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    font-weight: 500; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
